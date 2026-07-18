@@ -1,3 +1,17 @@
+/*
+ * Problem: LC1480 - Running Sum of 1D Array
+ * Difficulty: Easy
+ * Topic: Arrays
+ 
+ * Approach:
+ * - Create a new array 'runningSum'.
+ * - Store the first element as it is.
+ * - Traverse the array from index 1.
+ * - Keep a running total using a variable and store it in the result array.
+ 
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 class Solution {
     public int[] runningSum(int[] nums) {
         
