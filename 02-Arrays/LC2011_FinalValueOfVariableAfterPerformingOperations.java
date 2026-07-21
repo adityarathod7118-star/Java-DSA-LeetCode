@@ -19,7 +19,7 @@ class Solution {
         String incriment2 = "++X";
         for(int i = 0 ; i < operations.length ; i++)
         {
-            if(operations[i].equals(a) || operations[i].equals(b))
+            if(operations[i].equals(incriment1) || operations[i].equals(incriment2))
             {
                 X = X + 1;
             }
